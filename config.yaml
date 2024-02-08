@@ -1,0 +1,15 @@
+vocab_size: 100000
+emb_dim: 768
+#GPT2MLP
+mlp_hidden_size: 3072
+mlp_dropout_p: 0.1
+#GPT2Attention
+attn_num_heads: 12
+attn_dropout: 0.1
+attn_resid_dropout: 0.1
+#GPT2Block
+ln_eps: 0.00001
+#ruGPT2 
+context_window: 1024
+gpt2_dropout: 0.1
+num_blocks: 12
