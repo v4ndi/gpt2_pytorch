@@ -41,7 +41,6 @@ class GPT2MLP(nn.Module):
         return x
 
     
-# TODO продумать случай когда может быть другая последовательность query
 class GPT2Attention_classic(nn.Module):
     def __init__(self, config):
         super().__init__()
